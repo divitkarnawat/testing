@@ -65,15 +65,18 @@ class Testimonials extends Component{
                     <div className="wrapper">
                 <h2 className="title">TESTIMONIALS </h2>
                 <div className="testimonials">
-                        <div className="container">
+                        <div className="container testimonial_container">
                             <h2> " </h2>
         <p className="testi_description"> {this.testi_description}</p>
         <p className="testi_author">{this.testi_author}</p>
-        <button onClick={()=>this.clickHandler(-1)} className="btn  btn-testi" > prev </button>
-        <button onClick={()=>this.clickHandler(1)} className="btn  btn-testi">next </button>
         
                         </div>
+                        <div className="btn-test container">
+        <button onClick={()=>this.clickHandler(-1)} className="btn  btn-testi" > prev </button>
+        <button onClick={()=>this.clickHandler(1)} className="btn  btn-testi">next </button>
+        </div>
                         </div>
+                       
                 </div>
                 </div>
             </div>

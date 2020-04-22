@@ -41,10 +41,10 @@ class Projects extends Component{
                         <div className="col-sm-3" >
                             ALL
                         </div>
-                        <div className="col-sm-3" onClick={this.appdevHandler}>
+                        <div className="col-sm-3" onClick={this.appdevHandler.bind(this)}>
                             APP DEVELOPMENT
                             </div>
-                            <div className="col-sm-3" onClick={this.clickHandler}>
+                            <div className="col-sm-3" onClick={this.clickHandler.bind(this)}>
                             ECOMMERCE
                             </div>
                             <div className="col-sm-3">

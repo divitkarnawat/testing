@@ -8,7 +8,7 @@
     box-shadow: 2px 2px 20px 2px black;
     height: 50vh;
     width: 100%;
-
+    position: relative;
 }
 
 
@@ -36,15 +36,33 @@
     }
 }
 
+.btn-test
+{
+    position: absolute;
+    bottom: 0;
+    margin-left: -2rem;
+    padding-bottom: 10px;
+}
+
 .btn-testi
 {
+  
     border-radius: 70%;
     background-color: transparent;
     color: white !important;
     border-color: #1ABC9C;
     margin: 1rem;
-    margin-bottom: 0px;
+    margin-bottom: 1px;
     bottom: 0px;
+    
     box-shadow: 1px 1px 5px white;
    
 }
+
+
+@media only screen and (max-width: 600px) {
+    .testimonials
+    {
+        min-height: 400px;
+    }
+  }
