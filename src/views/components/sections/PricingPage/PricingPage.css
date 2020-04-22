@@ -1,0 +1,33 @@
+.pricing_form
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+input{
+    margin-bottom: 1rem;
+}
+
+.dropdown-menu
+{
+    animation: fadein .7s ease forwards;
+    opacity: 0;
+
+}
+@keyframes fadein
+{
+    from{
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+.project_description_input input
+{
+    height: 200px;
+}
